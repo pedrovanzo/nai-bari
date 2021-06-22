@@ -16,6 +16,7 @@ body{
     background-color: #AA00E6;
     color: rgb(226, 226, 226);
     padding: 4px 4px;
+    border: 0px;
 }
 .cnt-number{
     text-align: center;
@@ -70,6 +71,7 @@ body{
     color: white;
 }
 .section-aprender-item{
+    max-width: 800px;
     font-size: 1.3rem;
     color: rgb(66, 66, 66);
     text-align: left;
