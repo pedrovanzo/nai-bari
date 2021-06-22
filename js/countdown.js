@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 22, 2021 15:37:25").getTime()
+var countDownDate = new Date("Jun 23, 2021 17:08:25").getTime()
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -22,35 +22,44 @@ var x = setInterval(function() {
 
   // Dias
   if(days == 1){
-    document.getElementById("cnt-days-number").innerHTML = days
+    document.getElementById("cnt-days-number").innerHTML = "0" + days
     document.getElementById("cnt-days-str").innerHTML = "dia"
   }else if(days < 10){
     document.getElementById("cnt-days-number").innerHTML = "0" + days
-    document.getElementById("cnt-days-str").innerHTML = "dia"
+    document.getElementById("cnt-days-str").innerHTML = "dias"
   }else{
     document.getElementById("cnt-days-number").innerHTML = days
     document.getElementById("cnt-days-str").innerHTML = "dias"
   }
   // Horas
   if(hours == 1){
-    document.getElementById("cnt-hours-number").innerHTML = hours
+    document.getElementById("cnt-hours-number").innerHTML = "0" + hours
     document.getElementById("cnt-hours-str").innerHTML = "hora"
+  }else if(hours < 10){
+    document.getElementById("cnt-hours-number").innerHTML = "0" + hours
+    document.getElementById("cnt-hours-str").innerHTML = "horas"
   }else{
     document.getElementById("cnt-hours-number").innerHTML = hours
     document.getElementById("cnt-hours-str").innerHTML = "horas"
   }
   // Minutos
   if(minutes == 1){
-    document.getElementById("cnt-minutes-number").innerHTML = minutes
+    document.getElementById("cnt-minutes-number").innerHTML = "0" + minutes
     document.getElementById("cnt-minutes-str").innerHTML = "minuto"
+  }else if(minutes < 10){
+    document.getElementById("cnt-minutes-number").innerHTML = "0" + minutes
+    document.getElementById("cnt-minutes-str").innerHTML = "minutos"
   }else{
     document.getElementById("cnt-minutes-number").innerHTML = minutes
     document.getElementById("cnt-minutes-str").innerHTML = "minutos"
   }
   // Segundos
   if(seconds == 1){
-    document.getElementById("cnt-seconds-number").innerHTML = seconds
+    document.getElementById("cnt-seconds-number").innerHTML = "0" + seconds
     document.getElementById("cnt-seconds-str").innerHTML = "segundo"
+  }else if(seconds < 10){
+    document.getElementById("cnt-seconds-number").innerHTML = "0" + seconds
+    document.getElementById("cnt-seconds-str").innerHTML = "segundos"
   }else{
     document.getElementById("cnt-seconds-number").innerHTML = seconds
     document.getElementById("cnt-seconds-str").innerHTML = "segundos"
