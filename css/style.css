@@ -7,13 +7,13 @@ body{
 /* Countdown Styling */
 .cnt-container{
     display: flex;
-    background-color: #AA00E6;
+    background-color: #9a30c0;
     color: rgb(226, 226, 226);
     padding-bottom: 14px;
 }
 .cnt-text{
     display: flex;
-    background-color: #AA00E6;
+    background-color: #9a30c0;
     color: rgb(226, 226, 226);
     padding: 4px 4px;
     border: 0px;
@@ -59,7 +59,7 @@ body{
 
 /* O que vai aprender */
 .section-aprender{
-    background-color: #AA00E6;
+    background-color: #9a30c0;
     color: rgb(226, 226, 226);
     text-align: center;
 }
@@ -106,7 +106,7 @@ body{
 
 /* Team Bootstrap */
 .section-time-member{
-    background-color: #AA00E6;
+    background-color: #9a30c0;
     display: block;
 }
 .section-time-title{
