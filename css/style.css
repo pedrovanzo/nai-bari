@@ -159,7 +159,7 @@ body{
     margin-bottom: 20px;
     padding: 0;
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     overflow: hidden;
     -webkit-transition: border-color .5s;
     transition: border-color .5s;
@@ -215,4 +215,14 @@ body{
     display: inline-block;
     font-size: 0;
     line-height: 0;
+}
+/* Como vai funcionar */
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
 }
