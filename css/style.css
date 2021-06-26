@@ -1,9 +1,44 @@
 body{
     color: #3e4258;
 }
+*{
+    font-family: 'Roboto Slab', serif;
+}
+:root{
+    --main-bg-color: #660066;
+    --primary-bg-button: rgb(29, 158, 51);
+    --custom-header: 'Poiret One', cursive;
+
+}
+.ch{
+    font-family: var(--custom-header);
+}
+.barivilhosa{
+    font-family: 'Yellowtail', cursive;
+    font-size: 4.5em;
+    color: #fff;
+    text-shadow: 0px 0px 8px pink;
+}
+/* Button */
+.btn-desafio{
+    background-color: var(--primary-bg-button);
+    box-shadow: 0px 0px 6px #000;
+    border-radius: 0px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 0px solid #1e1e1e;
+    border-radius: 0px;
+}
 /* CTA Div */
 .cta-div{
-    background-color: #9a30c0;
+    color: #fff;
+    text-shadow: 0px 0px 5px black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/* CTA Button */
+.bg-primary-theme{
+    background-color: var(--main-bg-color);
 }
 /* Butterfly Icon */
 .butterfly-icon{
@@ -29,13 +64,13 @@ body{
 /* Countdown Styling */
 .cnt-container{
     display: flex;
-    background-color: #9a30c0;
+    background-color: var(--main-bg-color);
     color: rgb(226, 226, 226);
     padding-bottom: 14px;
 }
 .cnt-text{
     display: flex;
-    background-color: #9a30c0;
+    background-color: var(--main-bg-color);
     color: rgb(226, 226, 226);
     padding: 4px 4px;
     border: 0px;
@@ -81,23 +116,24 @@ body{
 
 /* O que vai aprender */
 .section-aprender{
-    background-color: #9a30c0;
+    background-color: var(--main-bg-color);
     color: rgb(226, 226, 226);
     text-align: center;
 }
 .section-aprender-title{
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 900;
     text-align: center;
     color: rgb(241, 241, 241);
 }
 .section-aprender-index{
-    font-size: 1.5rem;
-    background-color: cornflowerblue;
-    margin: 5px 16px 5px 5px;
+    font-size: 1.3rem;
+    /* background-color: cornflowerblue; */
+    margin: 5px 10px 5px 0px;
     padding: 5px 10px;
     border-radius: 10px;
-    color: white;
+    border: 0px solid black;
+    /* color: white; */
 }
 .section-aprender-item{
     max-width: 800px;
@@ -131,7 +167,7 @@ body{
 
 /* Team Bootstrap */
 .section-time-member{
-    background-color: #9a30c0;
+    background-color: var(--main-bg-color);
     display: block;
 }
 .section-time-title{
@@ -148,7 +184,9 @@ body{
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.07);
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,.07);
+    padding: 6px;
+    margin-bottom: 6px;
 }
 
 #team .team-portrait {
