@@ -1,6 +1,15 @@
 body{
     color: #3e4258;
 }
+/* CTA Div */
+.cta-div{
+    background-color: #9a30c0;
+}
+/* Butterfly Icon */
+.butterfly-icon{
+    width: 35px;
+    height: 35px;
+}
 /* Navbar */
 .nav-button-anchor{
     /* background-color: #642779; */
