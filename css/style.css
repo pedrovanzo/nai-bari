@@ -164,11 +164,24 @@ body{
     font-size: 1rem;
     color: rgb(66, 66, 66);
     /* text-align: center; */
-    padding: 20px 25px;
+    padding: 16px;
     background-color: whitesmoke;
     border-radius: 10px;
     text-align: left;
     max-width: 640px;
+}
+
+/* Bonus */
+.section-bonus-items{
+    margin: 16px 0px;
+    padding: 5px 12px;
+    border-left: 3px solid var(--main-bg-color)
+}
+
+/* Section Pricing */
+.section-pricing{
+    border-top: 5px solid var(--main-bg-color);
+    border-bottom: 5px solid var(--main-bg-color);
 }
 
 /* Team Bootstrap */
