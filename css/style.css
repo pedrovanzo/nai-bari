@@ -5,7 +5,7 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 :root{
-    --main-bg-color: #660066;
+    --main-bg-color: #612F74;
     --primary-bg-button: rgb(29, 158, 51);
     --custom-main-header: 'Yellowtail', cursive;
     --custom-header: 'Poiret One', cursive;
@@ -69,7 +69,7 @@ body{
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
-    color: #3e4258;
+    color: #612F74;
 }
 .control-border{
     border: 1px solid red;
@@ -112,7 +112,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); */
 
-    color: #3e4258;
+    color: #612F74;
     font-weight: bold;
     /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
     font-size: 2.5rem;
@@ -125,6 +125,7 @@ body{
 .section-title{
     font-size: 2rem;
     font-weight: 700;
+    color: #612F74;
 }
 
 /* O que vai aprender */
@@ -201,7 +202,7 @@ body{
 .section-time-title{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #3e4258;
+    color: #612F74;
     text-align: center;
 }
 #team {
@@ -224,7 +225,7 @@ body{
 #team .title, .title {
     padding: 30px 0;
     line-height: 36px;
-    color: #3e4258;
+    color: #612F74;
     font-size: 2.8rem;
 }
 
