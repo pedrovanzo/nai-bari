@@ -38,6 +38,10 @@ body{
     border: 0px solid #1e1e1e;
     border-radius: 0px;
 }
+/* Primary-Background-Color */
+.primary-custom-bg{
+    background-color: var(--main-bg-color);
+}
 /* CTA Div */
 .cta-div{
     color: #fff;
@@ -146,13 +150,14 @@ body{
 }
 .section-aprender-item{
     max-width: 800px;
-    font-size: 1.2rem;
-    background-color: rgb(28, 14, 32);
-    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
     text-align: left;
     padding: 12px;
-    border: 2px solid rgb(129, 129, 129);
-    border-radius: 10px;
+    box-shadow: 0px 0px 10px pink;
+    border: 0px solid rgb(129, 129, 129);
+    border-radius: 6px;
 }
 
 /* Para quem é */
