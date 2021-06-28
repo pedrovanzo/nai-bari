@@ -6,16 +6,18 @@ body{
 }
 :root{
     --main-bg-color: #8a2be2;
-    --primary-bg-button: rgb(29, 158, 51);
+    --primary-header-color: #8a2be2;
+    --primary-bg-button: #36b610;
     --custom-main-header: 'Yellowtail', cursive;
     --custom-header: 'Poiret One', cursive;
+    --custom-desafio-header: 'Damion', cursive;
 
 }
 .ch{
     font-family: var(--custom-header);
 }
 .barivilhosa{
-    font-family: 'Yellowtail', cursive;
+    font-family: var(--custom-desafio-header);
     font-size: 4.5em;
     color: #fff;
     text-shadow: 0px 0px 8px pink;
@@ -31,12 +33,14 @@ body{
 /* Button */
 .btn-desafio{
     background-color: var(--primary-bg-button);
+    color: #ffffff;
+    text-shadow: 0px 0px 5px black;
     box-shadow: 0px 0px 6px #000;
     border-radius: 0px;
     font-size: 1.8rem;
     font-weight: 600;
     border: 0px solid #1e1e1e;
-    border-radius: 0px;
+    border-radius: 6px;
 }
 /* Primary-Background-Color */
 .primary-custom-bg{
@@ -69,7 +73,7 @@ body{
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
-    color: #612F74;
+    color: var(--primary-header-color);
 }
 .control-border{
     border: 1px solid red;
@@ -112,7 +116,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); */
 
-    color: #612F74;
+    color: var(--primary-header-color);
     font-weight: bold;
     /* text-shadow: 0px 0px 5px rgb(0, 0, 0); */
     font-size: 2.5rem;
@@ -125,7 +129,7 @@ body{
 .section-title{
     font-size: 2rem;
     font-weight: 700;
-    color: #612F74;
+    color: var(--primary-header-color);
 }
 
 /* O que vai aprender */
@@ -202,7 +206,7 @@ body{
 .section-time-title{
     font-size: 2.5rem;
     font-weight: 700;
-    color: #612F74;
+    color: var(--primary-header-color);
     text-align: center;
 }
 #team {
@@ -225,7 +229,7 @@ body{
 #team .title, .title {
     padding: 30px 0;
     line-height: 36px;
-    color: #612F74;
+    color: var(--primary-header-color);
     font-size: 2.8rem;
 }
 
@@ -289,7 +293,7 @@ body{
 .social-media a {
     display: inline-block;
     font-size: 20px;
-    color: #3e4258;
+    color: var(--primary-header-color);
 }
 
 .social-media a i {
