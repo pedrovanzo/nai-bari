@@ -7,14 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barivilhosa</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Google Fonts - Base -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts - References -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+
+    <!-- jquery for number formatting -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 </head>
 
 <body>
@@ -130,7 +137,37 @@
             </div>
         </div>
         <!-- CUSTOM CTA -->
-        <a href="https://mpago.la/2mk841Y" class="cta-div">
+        <!-- https://mpago.la/2mk841Y -->
+        <div class="collapse flex-column justify-content-center bari-collapse-div py-3" id="collapseExample">
+            <div class="mx-3">
+                Informe seus dados para...
+            </div>
+            <div class="w-100 text-center">
+                <input type="text" placeholder="exemplo@email.com" class="bari-collapse-input">
+                <!-- <div>
+                    <input type="text" id="cellphone" placeholder="(xx)xxxxx-xxxx">
+                    
+                </div> -->
+                <input type="text" placeholder="(xx) xxxxx-xxxx)" class="bari-collapse-input" id="cellphone">
+                <br>
+                <div class="mx-auto mt-5">
+                    <small class="text-muted">Pagamento via</small>&nbsp;&nbsp;
+                    <img src="https://conteudo.mercadopago.com.br/hubfs/Logo/logo_mp_codo.png" style="width: 100px;" alt="">
+                </div>
+                <br>
+                <a class="">
+                    <div class="bari-collapse-button my-3 mt-0 mx-auto py-3">
+                        Ir para pagamento
+                    </div>
+                </a>
+                <div class="mx-auto text-muted">
+                    <small>Ao prosseguir, estou ciente das implicações legais...</small>
+                </div>
+            </div>
+        </div>
+
+        <a class="cta-div" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
             <div class="mx-auto my-5 px-2 py-2 w-75 text-center btn-desafio">
                 Quero emagrecer
             </div>
@@ -140,8 +177,8 @@
     <!-- Comparativo -->
     <div class="section-comp w-100 pt-2 px-4 my-4">
         <div class="w-100 section-aprender-title my-3 mb-4 cmh"
-            style="font-size: 2rem; font-weight: 500; color:#612F74;">
-            Exclusivo para bariatricadas
+            style="font-size: 2rem; font-weight: 500; color:#8a2be2;">
+            Exclusivo para bariatricados
         </div>
         <div class="w-100 section-quem-title my-3">
             <img src="img/comp-2.jpeg" alt="" style="width: 100%; max-width: 500px;">
@@ -210,7 +247,7 @@
     <div id="aprender" class="section-aprender w-100 py-4 px-4 my-0 mt-5 mb-0">
         <div class="w-100 section-aprender-title my-3 mb-4 cmh"
             style="font-size: 2rem; font-weight: 500; color:whitesmoke;">
-            Exclusivo para bariatricadas
+            Exclusivo para bariatricados
         </div>
         <div class="text-center my-4">
             <img src="img/nai-full-04.jpeg" style="width: 80%; max-width: 400px; height: auto;" alt="">
@@ -354,10 +391,10 @@
     <div id="funcionar" class="section-aprender w-100 py-4 px-4 my-0 mt-0">
         <div class="w-100 section-aprender-title my-3 mb-4 cmh"
             style="font-size: 2rem; font-weight: 500; color:whitesmoke;">
-            Exclusivo para bariatricadas
+            Exclusivo para bariatricados
         </div>
         <div class="w-100 section-aprender-title my-3">
-            <img src="img/como-vai-funcionar.jpg" style="width: 100%; max-width: 300px; border-radius: 20px;" alt="">
+            <img src="img/bari-wall.png" style="width: 100%; max-width: 300px; border-radius: 20px;" alt="">
         </div>
         <div class="d-flex justify-content-center">
             <div class="" style="max-width: 640px;">
@@ -675,7 +712,8 @@
         </div>
     </div>
 
-    <div class="my-2 py-5 px-4 mx-0 h4 text-center" style="color: #ccc; border-top: 1px solid #ccc; background-image: linear-gradient(rgb(235, 235, 235), #fff);">
+    <div class="my-2 py-5 px-4 mx-0 h4 text-center"
+        style="color: #ccc; border-top: 1px solid #ccc; background-image: linear-gradient(rgb(235, 235, 235), #fff);">
         <!-- &copy; -->
         <img src="img/omb-outline-grey.png" style="width: 60px;" class="mx-0" alt="">
     </div>
@@ -683,7 +721,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+        <!-- Countdown -->
     <script src="js/countdown.js"></script>
+    <!-- Number Formatting -->
+    <script src="js/number-format.js"></script>
+    <!-- jquery + bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
