@@ -4,6 +4,11 @@ body{
 *{
     font-family: 'Roboto Slab', serif;
 }
+.page-wrapper{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
 :root{
     --main-bg-color: #8a2be2;
     --primary-header-color: #8a2be2;
@@ -24,6 +29,34 @@ body{
 }
 .cmh{
     font-family: var(--custom-main-header);
+}
+/* Collapse: Input + Button */
+.bari-collapse-wrapper{
+    max-width: 500px;
+}
+.bari-collapse-div{
+    background-color: rgb(231, 231, 231);
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+.bari-collapse-input{
+    width: 90%;
+    height: 50px;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 8px;
+    border: 0px solid red;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 3px black;
+}
+.bari-collapse-button{
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(75, 81, 167);
+    text-decoration: none;
+    color: white;
 }
 /* Text Justify */
 .custom-text-justify{
