@@ -60,6 +60,9 @@ body{
 }
 /* Text Justify */
 .custom-text-justify{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
     text-justify: inter-word;
 }
