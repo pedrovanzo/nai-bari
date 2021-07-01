@@ -4,6 +4,9 @@ body{
 *{
     font-family: 'Roboto Slab', serif;
 }
+iframe{
+    width: 100%; min-height: 1010px; margin: 0px; padding: 0px;
+}
 .page-wrapper{
     max-width: 640px;
     margin-left: auto;

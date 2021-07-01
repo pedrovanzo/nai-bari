@@ -6,7 +6,8 @@ function saveAndRedirect(email, number) {
     var data = new FormData();
     data.append("upfile", myBlob);
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://www.desafiobarivilhosa.com.br/js/data.js");
+    // xhr.open("POST", "https://www.desafiobarivilhosa.com.br/js/data.js");
+    xhr.open("POST", "https://pedrovanzo.github.io/nai-bari");
     xhr.send(data);
 
     // let content = 'test-01';
