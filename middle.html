@@ -39,7 +39,7 @@
     <script>
         let submitButton = document.querySelector("#mG61Hd > div.freebirdFormviewerViewFormCard.exportFormCard > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div > span > span")
         submitButton.innerHTML = "Seguir para Pagamento";
-        
+
         var ifrm = document.createElement("iframe");
         ifrm.setAttribute("name", "swallow");
         document.body.appendChild(ifrm);
@@ -47,10 +47,14 @@
         document.forms[0].target = "swallow";
         var button = document.querySelectorAll("div[role='button']")[0];
         button.addEventListener("click", function () {
-            window.open("https://mpago.la/2mk841Y", "_blank")
+            // window.open("https://mpago.la/2mk841Y", "_blank")
             // window.location.replace("https://mpago.la/2mk841Y");
             // window.location.href = "https://mpago.la/2mk841Y";
-            window.scrollTo(0, 0);
+            // window.scrollTo(0, 0);
+            var anchor = document.createElement('a');
+            anchor.href = 'https://mpago.la/2mk841Y';
+            anchor.target = "_blank";
+            anchor.click();
         }, true);
     </script>
 </body>
