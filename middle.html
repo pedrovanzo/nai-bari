@@ -33,30 +33,11 @@
 </style>
 
 <body>
+    <div style="margin: 20px; padding: 20px;" onclick="redirect()">REDIRECIONAR</div>
     <script src="js/number-format.js"></script>
     <script src="https://googleformrestyler.apixml.net/GoogleFormStyler.js"
         form="https://docs.google.com/forms/d/e/1FAIpQLScX219_RJ2tM_9amk1yzeNlrJXiyHwdX2KnQBN7H7oKawXNVw/viewform?embedded=true&hl=pt"></script>
-    <script>
-        let submitButton = document.querySelector("#mG61Hd > div.freebirdFormviewerViewFormCard.exportFormCard > div.freebirdFormviewerViewFormContent > div.freebirdFormviewerViewNavigationNavControls > div.freebirdFormviewerViewNavigationButtonsAndProgress > div > div > span > span")
-        submitButton.innerHTML = "Seguir para Pagamento";
-
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("name", "swallow");
-        document.body.appendChild(ifrm);
-        ifrm.style.display = 'none';
-        document.forms[0].target = "swallow";
-        var button = document.querySelectorAll("div[role='button']")[0];
-        button.addEventListener("click", function () {
-            // window.open("https://mpago.la/2mk841Y", "_blank")
-            // window.location.replace("https://mpago.la/2mk841Y");
-            // window.location.href = "https://mpago.la/2mk841Y";
-            // window.scrollTo(0, 0);
-            var anchor = document.createElement('a');
-            anchor.href = 'https://mpago.la/2mk841Y';
-            anchor.target = "_blank";
-            anchor.click();
-        }, true);
-    </script>
+    
 </body>
 
 </html>
