@@ -1,0 +1,213 @@
+/* Title - Primary Font Color */
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-header-color);
+}
+
+/* Section Content */
+/* O que vai aprender */
+.section-aprender{
+    background-color: var(--main-bg-color);
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+.section-aprender-title{
+    font-size: 1.9rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+.section-aprender-index{
+    font-size: 1.3rem;
+    /* background-color: cornflowerblue; */
+    margin: 4px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 0px solid black;
+    /* color: white; */
+}
+.section-aprender-item{
+    max-width: 800px;
+    font-size: 1rem;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 12px;
+    box-shadow: 0px 0px 10px pink;
+    border: 0px solid rgb(129, 129, 129);
+    border-radius: 6px;
+}
+/* Para quem é */
+.section-comp{
+    text-align: center;
+}
+.section-comp-title{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+.section-comp-item{
+    font-size: 1rem;
+    color: rgb(66, 66, 66);
+    /* text-align: center; */
+    padding: 16px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 640px;
+}
+/* Bonus */
+.section-bonus-items{
+    margin: 16px 0px;
+    padding: 5px 12px;
+    border-left: 3px solid var(--main-bg-color)
+}
+/* Section Pricing */
+.section-pricing{
+    border-top: 5px solid var(--main-bg-color);
+    border-bottom: 5px solid var(--main-bg-color);
+}
+/* Team Bootstrap */
+.section-time-member{
+    background-color: var(--main-bg-color);
+    display: block;
+}
+.section-time-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-header-color);
+    text-align: center;
+}
+#team {
+    margin-top:40px;    
+}
+.block {
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,.07);
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+#team .team-portrait {
+    text-align: center;
+}
+
+#team .title, .title {
+    padding: 30px 0;
+    line-height: 36px;
+    color: var(--primary-header-color);
+    font-size: 2.8rem;
+}
+
+#team .title h2 {
+    margin: 0;
+    padding: 0 10px;
+    
+}
+
+#team .title h3 {
+    color: #9295a7;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#team .btn {
+    margin: 5px 10px 0 0;
+}
+
+#team p {
+    padding: 0 30px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.portrait {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 200px; */
+    overflow: hidden;
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s;
+}
+
+.team .row [class*="col-"]:hover .portrait {
+    border-color: #fff;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.social-media {
+    padding: 0 30px;
+    color: #fff;
+    width: 100%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.social-media a {
+    display: inline-block;
+    font-size: 20px;
+    color: var(--primary-header-color);
+}
+
+.social-media a i {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.social-media a:hover i {
+    color: #444;
+}
+@media (max-width: 992px)  {
+    .portrait {
+    height: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px)  {
+    .team .social-media a {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    padding-top: 3px;
+    }
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+/* Text Justify */
+.custom-text-justify{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}

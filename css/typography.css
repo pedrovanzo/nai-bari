@@ -1,0 +1,17 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+:root{
+    --custom-main-header: 'Yellowtail', cursive;
+    --custom-header: 'Poiret One', cursive;
+    --custom-desafio-header: 'Damion', cursive;
+}
+.ch{
+    font-family: var(--custom-header);
+}
+.cmh{
+    font-family: var(--custom-main-header);
+}
+.text-light-c{
+    color: #f5f5f5;
+}

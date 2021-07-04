@@ -1,0 +1,15 @@
+/* REWRITE THIS */
+.content-wrapper{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+:root{
+    --main-bg-color: #8a2be2;
+    --primary-header-color: #8a2be2;
+    --primary-bg-button: #36b610;
+}
+/* Primary-Background-Color */
+.primary-custom-bg{
+    background-color: var(--main-bg-color);
+}
