@@ -7,7 +7,7 @@
 :root{
     --main-bg-color: #8a2be2;
     --primary-header-color: #8a2be2;
-    --primary-bg-button: #36b610;
+    --primary-bg-button: hsl(0, 100%, 36%);
 }
 /* Primary-Background-Color */
 .primary-custom-bg{
